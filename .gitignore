@@ -1,0 +1,19 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# Generated phrases and derivation outputs
+*.txt
+*.csv
+funded_wallets.txt
+clean_valid_phrases.txt
+new_phrases.txt
+derived_wallets.csv
+
+# Environment & IDE
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+*.swp
